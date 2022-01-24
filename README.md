@@ -8,6 +8,10 @@ the well-known guidelines are made in the form
 of PDF files. In the digital world, this format 
 is no longer convenient.
 
+## Demo
+[GitHub Pages Link](https://savinkova-mariia.github.io/A11y-Checklist/)
+
+
 ## Overview
 ![Project Overview](img/scr2.png)
 ![Project Overview](img/scr1.png)
@@ -30,6 +34,8 @@ the museum museum
 - Figma
 - WebStorm 
 - GitHub
+
+
 ## License
 
 [MIT](https://github.com/savinkova-mariia/A11y-Checklist/blob/main/LICENSE)
