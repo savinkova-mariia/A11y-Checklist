@@ -8,6 +8,8 @@ the well-known guidelines are made in the form
 of PDF files. In the digital world, this format 
 is no longer convenient.
 
+![Project Overview](https://drive.google.com/file/d/1CngWMjVdBQF5MuUihPeqRkiVWNVjc4py/view?usp=sharing)
+
 ## Features
 
 - Anchor Links: the user can easily navigate a long one-pager via menu and anchor links
