@@ -8,7 +8,10 @@ the well-known guidelines are made in the form
 of PDF files. In the digital world, this format 
 is no longer convenient.
 
+## Overview
+![Project Overview](img/scr2.png)
 ![Project Overview](img/scr1.png)
+
 
 ## Features
 
