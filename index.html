@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>A11y Checklist</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css?_v=20220117155932" />
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<div class="header__main">
+					<div class="header__content">
+						<p class="header__content-text">СОДЕРЖАНИЕ</p>
+					</div>
+
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a data-goto=".title1" href="#" class="menu__link">
+										Доступное размещение
+									</a>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".title2" href="#" class="menu__link">
+										Опасность сенсорной перегрузки
+									</a>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".title3" href="#" class="menu__link">
+										Адаптация содержания и формы подачи
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="page__container">
+				<div class="page__body">
+					<div class="page__main">
+						<div class="page__label label">
+							<h1 class="label__title">Выставки для всех</h1>
+							<p class="label__text">
+								Практическое руководство по разработке
+								<br>инклюзивных цифровых выставок
+							</p>
+
+						</div>
+						<div class="page__info info">
+							<a class="info__title title1">Доступное размещение</a>
+							<p class="info__text">
+								Интерактивные, аудио и видео экспонаты и элементы управления должны быть доступны для посетителей, передвигающихся на инвалидных колясках.
+							</p>
+						</div>
+						<div class="page__forms">
+							<form action="#" class="block-form form1">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+									<label for="c_1" class="checkbox__label">
+										<div class="block-form__title">Высота расположения</div>
+										<div class="block-form__subtitle">
+											Элементы стоит расположить на разных высотах или так,
+											<br>чтобы можно было варьировать их высоту.
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn1 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler1">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										Микрофоны, наушники, небольшие экраны, отверстия для заглядывания стоит расположить
+										на разных высотах или так, чтобы можно было варьировать их высоту.
+									</div>
+									<div class="spoiler__info_text text2">
+										Если это сделать невозможно, то необходимо
+										ориентироваться на среднюю точку размещения 1370 мм. В случае размещения крупных экранов, лайтбоксов или проекций
+										диапазон размещения 750-2000 мм.
+									</div>
+								</div>
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka" class="images__button_link">
+												<picture><source srcset="img/1.webp"type="image/webp"><img class="i" src="img/1.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>Новая Третьяковка, <span>Москва</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://www.jewish-museum.ru" class="images__button_link">
+												<picture><source srcset="img/2.webp"type="image/webp"><img class="i" src="img/2.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t2">
+														<picture><source srcset="img/close.webp"type="image/webp"><img class="img2" src="img/close.png" alt="" /></picture>
+														<p>
+															Еврейский музей,
+															<span>Москва</span>
+														</p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<form action="#" class="block-form form3">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+									<label for="c_2" class="checkbox__label">
+										<div class="block-form__title">Элементы управления</div>
+										<div class="block-form__subtitle">
+											Элементы управления устанавливаются в пределах досягаемости человека
+											<br>на инвалидной коляске.
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn2 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler2">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										Элементы управления (например, рычаги, кнопки) обязательно устанавливаются в пределах досягаемости человека
+										на инвалидной коляске. Некоторые люди, использующие инвалидные коляски, не могут вытягивать руки на всю длину
+										и пользоваться интерактивными экспонатами, расположив коляску боком относительно элементов управления.
+									</div>
+									<div class="spoiler__info_text text2">
+										Рычаги, кнопки, сенсорные элементы (в том числе «виртуальные» кнопки на сенсорном дисплее) должны быть крупными,
+										желательно не менее 75 мм в диаметре.
+										<br>
+										<br>
+										Желательно, чтобы интерактивными экспонатами можно было управлять одной рукой, не прилагая больших физических усилий.
+										Тогда экспонат будет доступен для людей с мышечной дистрофией или людей без одной руки.
+									</div>
+								</div>
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://museedesconfluences.fr/" class="images__button_link">
+												<picture><source srcset="img/3.webp"type="image/webp"><img class="i" src="img/3.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>Musée des Confluences, <span>Лион, Франция</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://tvtower.ru" class="images__button_link">
+												<picture><source srcset="img/4.webp"type="image/webp"><img class="i" src="img/4.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t2">
+														<picture><source srcset="img/close.webp"type="image/webp"><img class="img2" src="img/close.png" alt="" /></picture>
+														<p>Останкинская Башня,
+															<span>Москва</span>
+														</p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<form action="#" class="block-form form4">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+
+									<label for="c_3" class="checkbox__label">
+										<div class="block-form__title">Инструкции к интерактивным экспонатам</div>
+										<div class="block-form__subtitle">
+											Для интерактивных экспонатов нужны краткие пошаговые инструкции.
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn3 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler3">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										Для интерактивных экспонатов нужны краткие пошаговые инструкции. Рекомендуется составлять их в формате “простыми словами”
+										и сопровождать иллюстрациями. Люди с особенностями интеллектуального развития лучше выполняют инструкции, если действия
+										можно совершать после прочтения каждого пункта, а не всей инструкции целиком. Такой формат также помогает людям с проблемами
+										кратковременной памяти.
+									</div>
+									<div class="spoiler__info_text text2">
+										Если экспонат доступен для незрячих и слепоглухих посетителей, необходимы инструкции, выполненные шрифтом Брайля и/или в аудиоформате.
+									</div>
+								</div>
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://www.gbs.spb.ru/ru/" class="images__button_link">
+												<picture><source srcset="img/5.webp"type="image/webp"><img class="i" src="img/5.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>ГСЦБС «Точки Зрения», <span>Санкт-Петербург</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://www.google.com/" class="images__button_link">
+												<picture><source srcset="img/14.webp"type="image/webp"><img class="i" src="img/14.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t2">
+														<picture><source srcset="img/close.webp"type="image/webp"><img class="img2" src="img/close.png" alt="" /></picture>
+														<p>
+															Третьяковская Галерея,
+															<span>Москва</span>
+														</p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="page__info info">
+							<a class="info__title title2">Опасность сенсорной перегрузки</a>
+							<p class="info__text">
+								Сенсорная перегрузка (расстройство) — это состояние, которое наступает в моменты, когда информации, поступающей к человеку из окружающей
+								среды посредством органов чувств, становится слишком много, и ему становится трудно на чём-либо сосредоточиться.
+								<br>
+								<br>
+								Экспонаты и инсталляции, которые могут вызвать сенсорную перегрузку, должны предполагать обход и/или тихие места отдыха рядом, сопровождаться
+								сенсорными картами.
+
+							</p>
+						</div>
+
+						<div class="page__forms">
+							<form action="#" class="block-form form4">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+									<label for="c_4" class="checkbox__label">
+										<div class="block-form__title">Свет и видео</div>
+										<div class="block-form__subtitle">
+											Рекомендуется разрабатывать сенсорные карты,
+											<br>чтобы посетители смогли выбрать комфортный для себя маршрут.
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn4 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler4">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										Источниками визуальных сигналов могут быть экспонаты, содержание видео, а также световые инсталляции,
+										яркий направленный свет, большое количество неэкранированного освещения.
+										С одной стороны, повышенную опасность представляют огромные экраны с быстрым изменением уровня освещенности
+										и яркими динамичными кадрами. С другой - очень тёмные и маленькие помещения или, наоборот, помещения, залитые ярким светом.
+									</div>
+									<div class="spoiler__info_text text2">
+										При наличии таких объектов и помещений рекомендуется разрабатывать сенсорные карты (карты сенсорной безопасности),
+										чтобы посетители смогли выбрать комфортный для себя маршрут.
+									</div>
+								</div>
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://pushkinmuseum.art" class="images__button_link">
+												<picture><source srcset="img/7.webp"type="image/webp"><img class="i" src="img/7.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>ГМИИ им. А.С. Пушкина, <span>Москва</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://rockheim.no/en" class="images__button_link">
+												<picture><source srcset="img/8.webp"type="image/webp"><img class="i" src="img/8.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t2">
+														<picture><source srcset="img/close.webp"type="image/webp"><img class="img2" src="img/close.png" alt="" /></picture>
+														<p>
+															Rockheim,
+															<span>Тронхейм, Норвегия</span>
+														</p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<form action="#" class="block-form form5">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+									<label for="c_5" class="checkbox__label">
+										<div class="block-form__title">Звук</div>
+										<div class="block-form__subtitle">
+											Желательно, чтобы звуки из разных зон не накладывались друг на друга,
+											<br>не были слишком громкими или резкими, а также не возникали внезапно
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn5 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler5">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										В выставочном пространстве желательно, чтобы звуки из разных зон не накладывались друг на друга,
+										не были слишком громкими или резкими, а также не возникали внезапно. Это затрудняет распознавание
+										звука слабослышащими, ведет к сенсорной перегрузке у людей с аутизмом, способствует быстрому утомлению всех посетителей.
+									</div>
+									<div class="spoiler__info_text text2">
+										Чтобы минимизировать риск сенсорной перегрузки, необходимо сопроводить слабослышащих, людей с ментальными особенностями,
+										родителей с маленькими детьми акустической/звуковой картой или картой шума.
+									</div>
+								</div>
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://permm.ru" class="images__button_link">
+												<picture><source srcset="img/16.webp"type="image/webp"><img class="i" src="img/16.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>Музей Современного Искусства «ПЕРММ», <span>Пермь</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://www.google.com/" class="images__button_link">
+												<picture><source srcset="img/15.webp"type="image/webp"><img class="i" src="img/15.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t2">
+														<picture><source srcset="img/close.webp"type="image/webp"><img class="img2" src="img/close.png" alt="" /></picture>
+														<p>
+															Музея Бориса Ельцина,
+															<span>Екатеринбург</span>
+														</p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="page__info info">
+							<a class="info__title title3">Адаптация содержания и формы подачи</a>
+							<p class="info__text">
+								Для глухих и слабослышащих посетителей необходимо адаптировать аудио и видеоинформацию,
+								а также подготовить видеогид на русском жестовом языке (РЖЯ).
+							</p>
+						</div>
+
+						<form action="#" class="block-form form6">
+							<div class="checkbox">
+								<div class="input">
+									<input id="c_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+								</div>
+								<label for="c_6" class="checkbox__label">
+									<div class="block-form__title">Регулировка громкости</div>
+									<div class="block-form__subtitle">
+										Рекомендуется давать возможность индивидуальной регулировки уровня громкости,
+										который после прослушивая возвращался к среднему значению.
+									</div>
+								</label>
+							</div>
+						</form>
+
+						<div class="page__forms">
+							<form action="#" class="block-form form7">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_7" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+									<label for="c_7" class="checkbox__label">
+										<div class="block-form__title">Субтитры и синопсисы к экспонатам и инсталляциям</div>
+										<div class="block-form__subtitle">
+											Все видео экспонаты со звуком, обязательно сопровождаются субтитрами,
+											<br>либо предоставляется отдельный ролик с отснятым переводом на РЖЯ.
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn7 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler7">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										Все видео экспонаты, где есть звуковое сопровождение, обязательно сопровождаются открытыми/вшитыми субтитрами,
+										либо переводится на русский жестовый язык. Не стоит полагаться на автоматические субтитры,
+										поскольку при воспроизведении с разных устройств они могут не включиться, их текст не всегда контрастен фону и читаем.
+										В этикетках к видео экспонатам рекомендуется указывать продолжительность роликов.
+									</div>
+									<div class="spoiler__info_text text2">
+										Рядом с аудио/видео экспонатом можно разместить транскрипцию (текстовую расшифровку) или синопсис - текст, передающий краткое содержание.
+										К аудиогидам, если это технически возможно, всегда должна идти транскрипция (письменная расшифровка), чтобы все посетители вне зависимости
+										от состояния слуха могли познакомиться с содержанием аудиогида.
+									</div>
+								</div>
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://centrededesign.com" class="images__button_link">
+												<picture><source srcset="img/9.webp"type="image/webp"><img class="i" src="img/9.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>Centre de Design, <span>Монреаль, Канада</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://www.google.com/" class="images__button_link">
+												<picture><source srcset="img/10.webp"type="image/webp"><img class="i" src="img/10.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t2">
+														<picture><source srcset="img/close.webp"type="image/webp"><img class="img2" src="img/close.png" alt="" /></picture>
+														<p>
+															Музей Бориса Ельцина,
+															<span>Екатеринбург</span>
+														</p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<form action="#" class="block-form form8">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_8" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+									<label for="c_8" class="checkbox__label">
+										<div class="block-form__title">Видеогиды на РЖЯ</div>
+										<div class="block-form__subtitle">
+											Видеогиды на РЖЯ позволяют глухим и слабослышащим посетителям самостоятельно посещать выставки и быть вовлеченными слушателями.
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn8 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler8">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										Самым важным форматом для комфорта глухих и слабослышащих посетителей при посещении музеев является РЖЯ.
+										На русском жестовом языке ведутся не только экскурсии с переводом или напрямую глухим/слабослышащим
+										экскурсоводом (что является более приемлемым вариантом), но также создаются
+										специальные видеогиды. Видеогиды на РЖЯ позволяют глухим и слабослышащим посетителям самостоятельно
+										посещать выставки и быть вовлеченными слушателями.
+									</div>
+									<div class="spoiler__info_text text2">
+										Такие видеогиды могут предлагаться вместе с музейными планшетами. Также рекомендуется размещать QR-коды,
+										ведущие к странице с видеогидом, в самом выставочном пространстве.
+									</div>
+								</div>
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://m.museivaticani.va/content/museivaticani-mobile/en.html" class="images__button_link">
+												<picture><source srcset="img/11.webp"type="image/webp"><img class="i" src="img/11.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>Vatican Museums, <span>Ватикан</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://www.google.com/" class="images__button_link">
+												<picture><source srcset="img/12.webp"type="image/webp"><img class="i" src="img/12.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t2">
+														<picture><source srcset="img/close.webp"type="image/webp"><img class="img2" src="img/close.png" alt="" /></picture>
+														<p>
+															Swiss National Museum,
+															<span>Цюрих, Швейцария</span>
+														</p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<form action="#" class="block-form form9">
+								<div class="checkbox">
+									<div class="input">
+										<input id="c_9" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+									</div>
+									<label for="c_9" class="checkbox__label">
+										<div class="block-form__title">Требования к субтитрам</div>
+										<div class="block-form__subtitle">
+											Сопровождать субтитрами важно не только видео экспонаты,
+											<br>но и видеогиды на РЖЯ.
+										</div>
+									</label>
+								</div>
+								<button type="button" class="button__arrow btn9 _icon-1"></button>
+							</form>
+
+							<div class="form__spoiler spoiler9">
+								<div class="spoiler__info">
+									<div class="spoiler__info_text text1">
+										Сопровождать субтитрами важно не только видео экспонаты, но и видеогиды на РЖЯ. В одном субтитре должно
+										быть не больше двух строк, а длина строки — не более 35 символов, считая пробелы и знаки препинания.
+										Для читаемости субтитров обязательно должна быть использована контрастную тексту подложку.
+									</div>
+									<div class="spoiler__info_text text2">
+										Звуки, например, пение птиц, закадровая музыка, смех, аплодисменты и т.д.
+										необходимо обозначать с помощью знаков и/или давать пояснения в скобках,
+										например, (Одобрительные возгласы) или (Пение). Субтитры должны полностью и четко передавать смысл.
+									</div>
+								</div>
+
+								<div class="spoiler__images images">
+									<ul class="images__buttons">
+										<li class="images__button_item">
+											<a href="https://www.si.edu" class="images__button_link">
+												<picture><source srcset="img/17.webp"type="image/webp"><img class="i" src="img/17.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p>The Smithsonian, <span>Вашингтон, Округ Колумбия, США</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li class="images__button_item">
+											<a href="https://www.amnh.org" class="images__button_link">
+												<picture><source srcset="img/18.webp"type="image/webp"><img class="i" src="img/18.png" alt="photo" /></picture>
+												<div class="images__button_span span">
+													<div class="span__text t1">
+														<picture><source srcset="img/check.webp"type="image/webp"><img class="img1" src="img/check.png" alt="" /></picture>
+														<p> American Museum of Natural History, <span>Нью Йорк, США</span></p>
+													</div>
+													<div class="span__arrow">
+														<picture><source srcset="img/arrow-right.webp"type="image/webp"><img src="img/arrow-right.png" alt="" /></picture>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__body">
+				<div class="footer__main">
+					<p class="main__year">@ 2021</p>
+					<a href="#" class="main__git">GitHub</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.js?_v=20220117155932"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js?_v=20220117155932"></script>
+
+</body>
+
+</html>
