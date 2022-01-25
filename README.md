@@ -44,4 +44,5 @@ the museum museum
 ## Authors
 
 - [@savinkova-mariia](https://github.com/savinkova-mariia)
+- [@KarinaValiyeva](https://github.com/KarinaValiyeva)
 
